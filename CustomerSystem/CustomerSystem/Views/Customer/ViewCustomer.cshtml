@@ -1,0 +1,71 @@
+﻿@model IEnumerable<CustomerSystem.Models.CustomerModel>
+
+@{
+    ViewBag.Title = "ViewCustomer";
+}
+
+<h2>List of Customers</h2>
+<b>Is Active:</b>
+@Html.RadioButton("searchBy", "Yes", true)<text>Yes</text>
+@Html.RadioButton("searchBy", "No", true)<text>No</text>
+<br />
+<b>Minimal Rating:</b>
+@Html.TextBox("search")
+<br />
+<input type="submit" value="search" />
+<br />
+<br />
+<p>
+    @Html.ActionLink("Create New", "CreateCustomer")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Surname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Town)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Town)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "CustomerUpdate", new { id = item.ID }) |
+                @Html.ActionLink("Details", "CustomerDetails", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "RemoveCustomer", new { id = item.ID })
+
+            </td>
+        </tr>
+    }
+
+</table>

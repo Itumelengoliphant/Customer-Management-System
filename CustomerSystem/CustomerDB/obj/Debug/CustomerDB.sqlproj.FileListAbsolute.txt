@@ -1,0 +1,10 @@
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\bin\Debug\CustomerDB.dacpac
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\bin\Debug\CustomerDB.dll
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\bin\Debug\CustomerDB.pdb
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\obj\Debug\CustomerDB.sqlprojAssemblyReference.cache
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\obj\Debug\Model.xml
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\obj\Debug\refactor.xml
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\obj\Debug\postdeploy.sql
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\obj\Debug\predeploy.sql
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\obj\Debug\CustomerDB.dll
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\CustomerDB\obj\Debug\CustomerDB.pdb

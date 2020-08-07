@@ -1,0 +1,9 @@
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Itu\Desktop\Simvu\CustomerSystem\DataLibrary\obj\Debug\DataLibrary.pdb
